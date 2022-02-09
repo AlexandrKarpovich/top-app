@@ -1,1 +1,0 @@
-{"version":3,"sources":["next-env-custom.ts"],"names":[],"mappings":"AAAA,8BAA8B;AAE9B,uCAAuC;AACvC,8EAA8E","file":"next-env-custom.js","sourcesContent":["/// <reference types=\"next\" />\n\n// NOTE: This file should not be edited\n// see https://nextjs.org/docs/basic-features/typescript for more information.\n"]}
