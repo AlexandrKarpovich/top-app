@@ -9,7 +9,12 @@ function Home() {
         react_1["default"].createElement(components_1.Button, { appearance: 'ghost', arrow: 'down' }, "\u0427\u0438\u0442\u0430\u0442\u044C \u043E\u0442\u0437\u044B\u0432\u044B"),
         react_1["default"].createElement(components_1.P, { size: 'l' }, "\u0411\u043E\u043B\u044C\u0448\u043E\u0439"),
         react_1["default"].createElement(components_1.P, null, "\u0441\u0440\u0435\u0434\u043D\u0438\u0439"),
-        react_1["default"].createElement(components_1.P, { size: 's' }, "\u041C\u0430\u043B\u044B\u0439")));
+        react_1["default"].createElement(components_1.P, { size: 's' }, "\u041C\u0430\u043B\u044B\u0439"),
+        react_1["default"].createElement(components_1.Tag, { size: 's' }, "Ghost"),
+        react_1["default"].createElement(components_1.Tag, { size: 'm', color: 'red' }, "red"),
+        react_1["default"].createElement(components_1.Tag, { size: 'm', color: 'green' }, "green"),
+        react_1["default"].createElement(components_1.Tag, { size: 'm', color: 'grey' }, "grey"),
+        react_1["default"].createElement(components_1.Tag, { color: 'primary' }, "primary")));
 }
 exports["default"] = Home;
 

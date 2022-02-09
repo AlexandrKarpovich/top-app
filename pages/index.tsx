@@ -1,5 +1,5 @@
 import React from 'react';
-import { Htag, Button, P } from '../components';
+import { Htag, Button, P, Tag } from '../components';
 
 export default function Home(): JSX.Element {
   return (
@@ -10,6 +10,12 @@ export default function Home(): JSX.Element {
       <P size='l'>Большой</P>
       <P>средний</P>
       <P size='s'>Малый</P>
+
+      <Tag size='s'>Ghost</Tag>
+      <Tag size='m' color='red'>red</Tag>
+      <Tag size='m' color='green'>green</Tag>
+      <Tag size='m' color='grey'>grey</Tag>
+      <Tag color='primary'>primary</Tag>
     </>
   );
 }
