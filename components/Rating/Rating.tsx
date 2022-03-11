@@ -1,6 +1,7 @@
 import {RatingProps} from './Rating.props';
 import styles from './Rating.module.css';
 import cn from 'classnames';
+import React from 'react';
 import StarIcon from './star.svg';
 import { useState, useEffect, KeyboardEvent } from 'react';
 
