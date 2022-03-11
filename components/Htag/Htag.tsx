@@ -12,7 +12,7 @@ export const Htag = ({ tag, children }: HtagProps ): JSX.element => {
         default:
             return <></>;
     }
-
+ 
     // return (<>
     //     {tag == 'h1' && <h1>{children}</h1>}
     //     {tag == 'h2' && <h2>{children}</h2>}
